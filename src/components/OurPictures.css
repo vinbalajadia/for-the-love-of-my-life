@@ -8,6 +8,7 @@
 }
 
 .gallery-title {
+  font-family: 'Bubblegum Sans', 'Comic Sans MS', cursive, sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: #d63384;
@@ -47,6 +48,7 @@
   font-size: 14px;
 }
 
+/* Swiper pagination customization */
 .mySwiper .swiper-pagination-bullet {
   background: #d63384;
   opacity: 0.5;

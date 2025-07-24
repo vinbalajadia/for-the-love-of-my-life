@@ -10,7 +10,6 @@ function App() {
   const handleViewChange = (view) => {
     setCurrentView(view);
     if (!audioStarted) {
-      // Try to play audio when user interacts with the page
       const audio = document.getElementById('background-music');
       if (audio) {
         audio.play().catch(e => console.log('Audio autoplay prevented'));
